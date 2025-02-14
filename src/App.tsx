@@ -1,27 +1,12 @@
 import { useState } from 'react';
-import { Plus, Trash2, Users, SplitSquareVertical as SplitSquare } from 'lucide-react';
+import { Plus, Trash, Users, SplitSquareVertical as SplitSquare } from 'lucide-react';
 import defaultImg from './default.png';
 import en from './translations/en.json';
 import ar from './translations/ar.json';
+import Friend from './interfaces/Friend';
+import Expense from './interfaces/Expense';
+import Translations from './interfaces/Translations';
 
-interface Friend {
-  name: string;
-  image?: string;
-}
-
-interface Expense {
-  id: number;
-  description: string;
-  amount: number;
-  paidBy: string;
-  splitWith: string;
-}
-
-interface Translations {
-  [key: string]: {
-    [key: string]: string;
-  };
-}
 
 const translations: Translations = {
   en: en,
@@ -158,7 +143,7 @@ function App() {
                     onClick={() => removeFriend(index)}
                     className="text-red-500 hover:text-red-700"
                   >
-                    <Trash2 className="w-4 h-4" />
+                    <Trash className="w-4 h-4" />
                   </button>
                 )}
               </div>
@@ -246,7 +231,7 @@ function App() {
                       onClick={() => removeExpense(expense.id)}
                       className="text-red-500 hover:text-red-700"
                     >
-                      <Trash2 className="w-5 h-5" />
+                      <Trash className="w-5 h-5" />
                     </button>
                   </div>
                 </div>

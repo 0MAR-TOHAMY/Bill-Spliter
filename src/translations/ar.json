@@ -1,0 +1,18 @@
+{
+    "splitBills": "تقسيم الفواتير",
+    "trackExpenses": "تتبع النفقات الفردية مع الأصدقاء",
+    "friends": "الأصدقاء",
+    "addFriend": "إضافة مصروف",
+    "addFriendsName": "إضافة اسم الصديق",
+    "imageUrl": "رابط الصورة (اختياري)",
+    "totalExpenses": "إجمالي المصروفات",
+    "yourPayment": "دفعتك",
+    "theirPayment": "دفع",
+    "eachShouldPay": "كل شخص يجب أن يدفع",
+    "description": "الوصف",
+    "amount": "المبلغ",
+    "balanceWith": "الرصيد مع",
+    "owesYou": "مدين لك",
+    "youOwe": "أنت مدين",
+    "settledUp": "تم التسوية بالكامل!"
+}

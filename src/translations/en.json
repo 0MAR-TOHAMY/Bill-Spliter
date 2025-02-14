@@ -1,0 +1,18 @@
+{
+    "splitBills": "Split Bills",
+    "trackExpenses": "Track individual expenses with friends",
+    "friends": "Friends",
+    "addFriend": "Add Expense",
+    "addFriendsName": "Add friend's name",
+    "imageUrl": "Image URL (optional)",
+    "totalExpenses": "Total Expenses",
+    "yourPayment": "Your Payment",
+    "theirPayment": "'s Payment",
+    "eachShouldPay": "Each Should Pay",
+    "description": "Description",
+    "amount": "Amount",
+    "balanceWith": "Balance with",
+    "owesYou": "owes you",
+    "youOwe": "You owe",
+    "settledUp": "You are all settled up!"
+}

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Plus, Trash2, Users, SplitSquareVertical as SplitSquare } from 'lucide-react';
+import defaultImg from './default.png';
 
 interface Friend {
   name: string;
@@ -24,7 +25,7 @@ function App() {
 
   const addFriend = () => {
     if (newFriend.trim() && !friends.some(friend => friend.name === newFriend.trim())) {
-      setFriends([...friends, { name: newFriend.trim(), image: newFriendImage.trim() || undefined }]);
+      setFriends([...friends, { name: newFriend.trim(), image: newFriendImage.trim() || defaultImg }]);
       setNewFriend('');
       setNewFriendImage('');
     }
